@@ -1,0 +1,70 @@
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+#P1 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgb(0 0 0 / 0.55);
+  border-radius: 20px;
+  padding: 5%;
+}
+
+#logo {
+  height: 100px;
+  width: auto;
+}
+
+#titolo {
+  font-family: sans-serif;
+  color: #1BCA1A;
+  margin-top: 0.1%;
+  margin-bottom: 0.3%;
+}
+
+main {
+  background-color: #1BCA1A;
+  padding: 10px;
+}
+
+section {
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+
+section > h2 {
+  margin-bottom: 0.5%;
+}
+
+.Sitomono:before {
+  content:"\21A6";
+}
+
+.Sitomono, .Ricarica {
+  margin-top: 0;
+  margin-bottom: 0.5%;
+}
+
+section > h1 {
+  margin-top: 0;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#Metà {
+  width: 40%;
+  background-color: orange;
+}
+
+#Scarica {
+  width: 20%;
+  background-color: red;
+}
+
+#Carica {
+  width: 60%;
+  background-color: green;
+}
